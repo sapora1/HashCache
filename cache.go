@@ -17,6 +17,14 @@ type entry struct {
 	value interface{}
 }
 
+func NewCreateCache(capacity int) *Cache {
+	return &Cache{
+		capacity: capacity,
+		store:    make(map[string]*list.Element),
+		list:     list.New(),
+	}
+}
+
 func (c *Cache) Get(key string) (interface{}, bool) {
 	c.mutex.Lock()
 	defer c.mutex.Unlock()
