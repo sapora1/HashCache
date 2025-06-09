@@ -50,8 +50,6 @@ func (c *Cache) Get(key string) (interface{}, bool) {
 	if c.useRedis {
 		val, err := c.redisClient.Get(context.Background(), key).Result()
 		if err == nil {
-			// Insert into local cache
-			c.Put(key, val)
 			return val, true
 		}
 	}
