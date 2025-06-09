@@ -191,6 +191,6 @@ MIT — feel free to use, fork, and improve.
 
 ## ✨ Author
 
-Made with ❤️ by [sapora](https://github.com/sapora)
+Made with ❤️ by [Rahul](https://github.com/sapora1)
 
 ---
