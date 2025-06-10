@@ -17,7 +17,7 @@
 ## 📦 Installation
 
 ```bash
-go get github.com/sapora/hashcache
+go get github.com/sapora1/hashcache
 ```
 
 ---
@@ -31,7 +31,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/sapora/hashcache"
+	"github.com/sapora1/hashcache"
 )
 
 func main() {
@@ -61,7 +61,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/sapora/hashcache"
+	"github.com/sapora1/hashcache"
 	"github.com/redis/go-redis/v9"
 )
 
